@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>591</width>
-    <height>418</height>
+    <height>332</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -62,39 +62,6 @@
       <minute>0</minute>
       <second>0</second>
      </time>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="debugLine1">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>340</y>
-      <width>191</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="debugLine2">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>360</y>
-      <width>191</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>340</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
     </property>
    </widget>
    <widget class="QWidget" name="gridLayoutWidget">
@@ -2985,50 +2952,10 @@
     </layout>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>591</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QToolBar" name="mainToolBar">
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>ButtonClicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>464</x>
-     <y>373</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>191</x>
-     <y>417</y>
-    </hint>
-   </hints>
-  </connection>
   <connection>
    <sender>buttonRun_0</sender>
    <signal>clicked()</signal>
@@ -3297,7 +3224,7 @@
     </hint>
     <hint type="destinationlabel">
      <x>221</x>
-     <y>-10</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -3313,7 +3240,7 @@
     </hint>
     <hint type="destinationlabel">
      <x>120</x>
-     <y>-11</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -3329,7 +3256,7 @@
     </hint>
     <hint type="destinationlabel">
      <x>140</x>
-     <y>-4</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -3345,7 +3272,7 @@
     </hint>
     <hint type="destinationlabel">
      <x>159</x>
-     <y>-17</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -3361,7 +3288,7 @@
     </hint>
     <hint type="destinationlabel">
      <x>231</x>
-     <y>-1</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -3376,7 +3303,7 @@
      <y>272</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-3</x>
+     <x>0</x>
      <y>13</y>
     </hint>
    </hints>
@@ -3392,7 +3319,7 @@
      <y>312</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-4</x>
+     <x>0</x>
      <y>62</y>
     </hint>
    </hints>
@@ -3408,7 +3335,7 @@
      <y>347</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-3</x>
+     <x>0</x>
      <y>47</y>
     </hint>
    </hints>
@@ -3424,7 +3351,7 @@
      <y>95</y>
     </hint>
     <hint type="destinationlabel">
-     <x>592</x>
+     <x>590</x>
      <y>59</y>
     </hint>
    </hints>
@@ -3440,7 +3367,7 @@
      <y>128</y>
     </hint>
     <hint type="destinationlabel">
-     <x>595</x>
+     <x>590</x>
      <y>96</y>
     </hint>
    </hints>
@@ -3456,7 +3383,7 @@
      <y>159</y>
     </hint>
     <hint type="destinationlabel">
-     <x>591</x>
+     <x>590</x>
      <y>153</y>
     </hint>
    </hints>
@@ -3472,7 +3399,7 @@
      <y>205</y>
     </hint>
     <hint type="destinationlabel">
-     <x>592</x>
+     <x>590</x>
      <y>184</y>
     </hint>
    </hints>
@@ -3488,7 +3415,7 @@
      <y>238</y>
     </hint>
     <hint type="destinationlabel">
-     <x>591</x>
+     <x>590</x>
      <y>217</y>
     </hint>
    </hints>
@@ -3504,7 +3431,7 @@
      <y>270</y>
     </hint>
     <hint type="destinationlabel">
-     <x>593</x>
+     <x>590</x>
      <y>267</y>
     </hint>
    </hints>
@@ -3552,7 +3479,7 @@
      <y>90</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-2</x>
+     <x>0</x>
      <y>104</y>
     </hint>
    </hints>
@@ -3568,7 +3495,7 @@
      <y>119</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-2</x>
+     <x>0</x>
      <y>144</y>
     </hint>
    </hints>
@@ -3584,7 +3511,7 @@
      <y>158</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-1</x>
+     <x>0</x>
      <y>171</y>
     </hint>
    </hints>
@@ -3616,7 +3543,7 @@
      <y>243</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-2</x>
+     <x>0</x>
      <y>349</y>
     </hint>
    </hints>
@@ -3664,7 +3591,7 @@
      <y>347</y>
     </hint>
     <hint type="destinationlabel">
-     <x>-3</x>
+     <x>0</x>
      <y>90</y>
     </hint>
    </hints>
@@ -3696,7 +3623,7 @@
      <y>128</y>
     </hint>
     <hint type="destinationlabel">
-     <x>596</x>
+     <x>590</x>
      <y>125</y>
     </hint>
    </hints>
@@ -3712,7 +3639,7 @@
      <y>170</y>
     </hint>
     <hint type="destinationlabel">
-     <x>594</x>
+     <x>590</x>
      <y>28</y>
     </hint>
    </hints>
@@ -3728,7 +3655,7 @@
      <y>202</y>
     </hint>
     <hint type="destinationlabel">
-     <x>592</x>
+     <x>590</x>
      <y>19</y>
     </hint>
    </hints>
@@ -3744,7 +3671,7 @@
      <y>239</y>
     </hint>
     <hint type="destinationlabel">
-     <x>595</x>
+     <x>590</x>
      <y>9</y>
     </hint>
    </hints>
@@ -3761,7 +3688,7 @@
     </hint>
     <hint type="destinationlabel">
      <x>522</x>
-     <y>-1</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -3776,7 +3703,7 @@
      <y>305</y>
     </hint>
     <hint type="destinationlabel">
-     <x>594</x>
+     <x>590</x>
      <y>296</y>
     </hint>
    </hints>
@@ -3792,8 +3719,264 @@
      <y>351</y>
     </hint>
     <hint type="destinationlabel">
-     <x>595</x>
+     <x>590</x>
      <y>359</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_0</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>384</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>328</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>203</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>248</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>303</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_7</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>339</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>526</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_8</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>526</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>489</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_9</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>517</x>
+     <y>132</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>507</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_10</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>521</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>590</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_11</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>526</x>
+     <y>198</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_12</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>538</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>571</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_13</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>515</x>
+     <y>269</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>577</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_14</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>523</x>
+     <y>312</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>579</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonOnOff_15</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisableTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>342</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>571</x>
+     <y>419</y>
     </hint>
    </hints>
   </connection>
@@ -3803,5 +3986,6 @@
   <slot>RunButtonClicked()</slot>
   <slot>StartChanged()</slot>
   <slot>StopChanged()</slot>
+  <slot>DisableTime()</slot>
  </slots>
 </ui>

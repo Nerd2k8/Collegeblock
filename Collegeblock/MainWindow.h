@@ -7,10 +7,10 @@
 #include <QTimer>
 #include <QTime>
 
+
 void compareTimerClock(QTime time, QTime clocktime, int ret[2]);  		//	int-array with hour[0] & minute[1] differences. (time - clocktime)
 
-
-QString getIntFromString(QString str); 		// match integers 0 to 99
+QString getIntFromString(QString str);    		// match integers 0 to 99
 QString getCharsFromString(QString str);
 
 
@@ -35,8 +35,8 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 	
-public slots:
-    void ButtonClicked();
+public slots :
+	void DisableTime();
 	void RunButtonClicked();
 	void StartChanged();
 	void StopChanged();
@@ -44,9 +44,9 @@ public slots:
 private:
     Ui::MainWindow *ui;
 	void showTime();
-	void compStartTmrs(QTime time);
-	void compStopTmrs(QTime time);
+	void compStartStop(int start, int stop, int time, int index);
 	int getMinutes(QTime time);
+
 };
 
 #endif // MAINWINDOW_H
