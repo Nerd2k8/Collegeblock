@@ -17,7 +17,7 @@ void compareTimerClock(QTime time, QTime clocktime, int ret[2])
 	ret[1] = time.minute() - clocktime.minute();
 }
 
-QString getIntFromString(QString str)
+QString getNmbrFromString(QString str)
 {
 	int pos = 0;
 	QString num;
@@ -53,6 +53,12 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 	
+	for (int i = 0; i < 16; i++)
+	{
+		actTimer[i] = ui->centralWidget->findChild<QPushButton*>("buttonOnOff_" + QString::number(i))->isChecked();
+		active[i] = ui->centralWidget->findChild<QPushButton*>("buttonRun_" + QString::number(i))->isChecked();
+	}
+	
 	QTimer *timer = new QTimer(this);
 	
 	connect(timer, &QTimer::timeout, this, &MainWindow::showTime);
@@ -76,45 +82,21 @@ int MainWindow::getMinutes(QTime time)
 }
 
 
-void MainWindow::DisableTime()
+void MainWindow::ActivateTimer()
 {
 	QPushButton *btn = (QPushButton*)sender();
-	QString nmbr = getIntFromString(btn->objectName());
-	
-	if (btn->isChecked())
-	{
-		ui->centralWidget->findChild<QTimeEdit*>("timeStart_" + nmbr)->setEnabled(false);
-		ui->centralWidget->findChild<QTimeEdit*>("timeStop_" + nmbr)->setEnabled(false);
-		deactivatePin(pinArr[nmbr.toInt()]);
-	}
-	else if (!btn->isChecked())
-	{
-		ui->centralWidget->findChild<QTimeEdit*>("timeStart_" + nmbr)->setEnabled(true);
-		ui->centralWidget->findChild<QTimeEdit*>("timeStop_" + nmbr)->setEnabled(true);
-		compStartStop(
-			getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStart_" + nmbr)->time()), 
-			getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStop_" + nmbr)->time()), 
-			getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeEdit")->time()), 
-			nmbr.toInt());
-	}
+	QString nmbr = getNmbrFromString(btn->objectName());
+	actTimer[nmbr.toInt()] = btn->isChecked();
+	selectPin(nmbr.toInt());
 }
 
 
 void MainWindow::RunButtonClicked()
 {
 	QPushButton *btn = (QPushButton*)sender();
-	QString nmbr = getIntFromString(btn->objectName());
-	int idx = nmbr.toInt();
-	
-	
-	if (!(switched[idx] = btn->isChecked()) && !(onTimer[idx]))
-	{
-		deactivatePin(pinArr[idx]);
-	}
-	else if ( switched[idx] &&  !(onTimer[idx]))
-	{
-		activatePin(pinArr[idx]);
-	}
+	QString nmbr = getNmbrFromString(btn->objectName());
+	active[nmbr.toInt()] = btn->isChecked();
+	selectPin(nmbr.toInt());
 }
 
 
@@ -129,14 +111,14 @@ void MainWindow::StartChanged()
 	
 	if (start->isEnabled())
 	{
-		istr = getIntFromString(start->objectName());
+		istr = getNmbrFromString(start->objectName());
 		idx = istr.toInt();
 		strt = getMinutes(start->time());
 		tme = getMinutes(ui->timeEdit->time());
 		stp = getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStop_" + istr)->time());
 	
-	
 		compStartStop(strt, stp, tme, idx);
+		selectPin(idx);
 	}
 }
 
@@ -152,15 +134,15 @@ void MainWindow::StopChanged()
 	
 	if (stop->isEnabled())
 	{
-		istr = getIntFromString(stop->objectName());
+		istr = getNmbrFromString(stop->objectName());
 		idx = istr.toInt();
 	
 		stp = getMinutes(stop->time());
 		tme = getMinutes(ui->timeEdit->time());
 		strt = getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStart_" + istr)->time());
 	
-	
 		compStartStop(strt, stp, tme, idx);
+		selectPin(idx);
 	}
 }
 
@@ -180,14 +162,12 @@ void MainWindow::showTime()
 		for (idx = 0; idx < 16; idx++)
 		{
 			index = QString::number(idx);
-			if ( (ui->centralWidget->findChild<QTimeEdit*>("timeStart_" + index)->isEnabled()) && (ui->centralWidget->findChild<QTimeEdit*>("timeStop_" + index)->isEnabled()) )
-			{
-				compStartStop(
-					getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStart_" + index)->time()), 
-					getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStop_" + index)->time()), 
-					getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeEdit")->time()), 
-					idx);
-			}
+			compStartStop(
+				getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStart_" + index)->time()), 
+				getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeStop_" + index)->time()), 
+				getMinutes(ui->centralWidget->findChild<QTimeEdit*>("timeEdit")->time()), 
+				idx);
+			selectPin(idx);
 		}
 	}
 }
@@ -195,8 +175,8 @@ void MainWindow::showTime()
 
 void MainWindow::compStartStop(int start, int stop, int time, int index)
 {
-	if ( ( stop-start>0 && stop-time>0 && time-start>=0 ) || 
-		( start-stop>0 && (time-start>=0 || stop-time>0) ) )
+	if ( (stop-start==0) || ( ( stop-start>0 && stop-time>0 && time-start>=0 ) || 
+		( start-stop>0 && (time-start>=0 || stop-time>0) ) ) )
 	{
 		onTimer[index] = true;
 	}
@@ -205,9 +185,13 @@ void MainWindow::compStartStop(int start, int stop, int time, int index)
 		onTimer[index] = false;
 	}
 	
-	if (!switched[index])
+}
+
+void  MainWindow::selectPin(int index)
+{
+	if (!active[index])
 	{
-		if (onTimer[index])
+		if (onTimer[index] && actTimer[index])
 		{
 			activatePin(pinArr[index]);
 		}
@@ -216,4 +200,6 @@ void MainWindow::compStartStop(int start, int stop, int time, int index)
 			deactivatePin(pinArr[index]);
 		}
 	}
+	else
+		activatePin(pinArr[index]);
 }

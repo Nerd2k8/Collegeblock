@@ -139,7 +139,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -172,7 +172,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -317,7 +317,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -350,7 +350,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -495,7 +495,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -528,7 +528,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -673,7 +673,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -706,7 +706,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -851,7 +851,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -884,7 +884,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1029,7 +1029,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1062,7 +1062,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1207,7 +1207,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1240,7 +1240,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1394,7 +1394,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1427,7 +1427,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1660,7 +1660,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1693,7 +1693,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1838,7 +1838,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -1871,7 +1871,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2016,7 +2016,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2049,7 +2049,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2194,7 +2194,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2227,7 +2227,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2372,7 +2372,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2405,7 +2405,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2550,7 +2550,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2583,7 +2583,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2728,7 +2728,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2761,7 +2761,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2906,7 +2906,7 @@
            </font>
           </property>
           <property name="text">
-           <string/>
+           <string>timer</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2939,7 +2939,7 @@
            </font>
           </property>
           <property name="text">
-           <string>run</string>
+           <string>on</string>
           </property>
           <property name="checkable">
            <bool>true</bool>
@@ -2963,8 +2963,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>25</x>
-     <y>93</y>
+     <x>28</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>92</x>
@@ -2979,8 +2979,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>13</x>
-     <y>126</y>
+     <x>16</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>73</x>
@@ -2995,8 +2995,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>19</x>
-     <y>167</y>
+     <x>22</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>59</x>
@@ -3011,8 +3011,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>32</x>
-     <y>203</y>
+     <x>35</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>32</x>
@@ -3027,8 +3027,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>8</x>
-     <y>231</y>
+     <x>11</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>45</x>
@@ -3043,8 +3043,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>11</x>
-     <y>264</y>
+     <x>14</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>64</x>
@@ -3059,8 +3059,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>13</x>
-     <y>312</y>
+     <x>16</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>42</x>
@@ -3075,8 +3075,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>20</x>
-     <y>346</y>
+     <x>23</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>12</x>
@@ -3091,8 +3091,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>566</x>
-     <y>90</y>
+     <x>587</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>496</x>
@@ -3107,8 +3107,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>577</x>
-     <y>124</y>
+     <x>587</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>511</x>
@@ -3123,8 +3123,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>555</x>
-     <y>163</y>
+     <x>587</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>485</x>
@@ -3139,8 +3139,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>558</x>
-     <y>196</y>
+     <x>587</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>523</x>
@@ -3155,8 +3155,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>550</x>
-     <y>236</y>
+     <x>587</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>542</x>
@@ -3171,8 +3171,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>561</x>
-     <y>273</y>
+     <x>587</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>568</x>
@@ -3187,8 +3187,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>578</x>
-     <y>312</y>
+     <x>587</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>582</x>
@@ -3203,8 +3203,8 @@
    <slot>RunButtonClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>579</x>
-     <y>341</y>
+     <x>587</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>553</x>
@@ -3219,8 +3219,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>164</x>
-     <y>82</y>
+     <x>196</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>221</x>
@@ -3235,8 +3235,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>145</x>
-     <y>122</y>
+     <x>196</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>120</x>
@@ -3251,8 +3251,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>134</x>
-     <y>163</y>
+     <x>196</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>140</x>
@@ -3267,8 +3267,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>121</x>
-     <y>197</y>
+     <x>196</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>159</x>
@@ -3283,8 +3283,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>175</x>
-     <y>240</y>
+     <x>196</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>231</x>
@@ -3299,8 +3299,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>147</x>
-     <y>272</y>
+     <x>196</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3315,8 +3315,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>125</x>
-     <y>312</y>
+     <x>196</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3331,8 +3331,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>347</y>
+     <x>196</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3347,8 +3347,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>358</x>
-     <y>95</y>
+     <x>361</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3363,8 +3363,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>370</x>
-     <y>128</y>
+     <x>373</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3379,8 +3379,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>332</x>
-     <y>159</y>
+     <x>335</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3395,8 +3395,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>379</x>
-     <y>205</y>
+     <x>382</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3411,8 +3411,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>361</x>
-     <y>238</y>
+     <x>364</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3427,8 +3427,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>342</x>
-     <y>270</y>
+     <x>345</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3443,8 +3443,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>334</x>
-     <y>313</y>
+     <x>337</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>588</x>
@@ -3459,8 +3459,8 @@
    <slot>StartChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>364</x>
-     <y>351</y>
+     <x>367</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3475,8 +3475,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>223</x>
-     <y>90</y>
+     <x>287</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3491,8 +3491,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>234</x>
-     <y>119</y>
+     <x>287</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3507,8 +3507,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>239</x>
-     <y>158</y>
+     <x>287</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3523,8 +3523,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>234</x>
-     <y>203</y>
+     <x>287</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>1</x>
@@ -3539,8 +3539,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>216</x>
-     <y>243</y>
+     <x>287</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3555,8 +3555,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>251</x>
-     <y>277</y>
+     <x>287</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3571,8 +3571,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>236</x>
-     <y>309</y>
+     <x>287</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>2</x>
@@ -3587,8 +3587,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>247</x>
-     <y>347</y>
+     <x>287</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3603,8 +3603,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>430</x>
-     <y>84</y>
+     <x>480</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>581</x>
@@ -3619,8 +3619,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>450</x>
-     <y>128</y>
+     <x>480</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3635,8 +3635,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>450</x>
-     <y>170</y>
+     <x>480</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3651,8 +3651,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>427</x>
-     <y>202</y>
+     <x>480</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3667,8 +3667,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>413</x>
-     <y>239</y>
+     <x>480</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3683,8 +3683,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>450</x>
-     <y>274</y>
+     <x>480</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>522</x>
@@ -3699,8 +3699,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>431</x>
-     <y>305</y>
+     <x>480</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3715,8 +3715,8 @@
    <slot>StopChanged()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>411</x>
-     <y>351</y>
+     <x>480</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3728,11 +3728,11 @@
    <sender>buttonOnOff_0</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>74</x>
-     <y>88</y>
+     <x>86</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>384</x>
@@ -3744,11 +3744,11 @@
    <sender>buttonOnOff_1</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>67</x>
-     <y>128</y>
+     <x>86</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>348</x>
@@ -3760,11 +3760,11 @@
    <sender>buttonOnOff_2</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>65</x>
-     <y>167</y>
+     <x>86</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>328</x>
@@ -3776,11 +3776,11 @@
    <sender>buttonOnOff_3</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>74</x>
-     <y>203</y>
+     <x>86</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3792,11 +3792,11 @@
    <sender>buttonOnOff_4</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>68</x>
-     <y>241</y>
+     <x>86</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -3808,11 +3808,11 @@
    <sender>buttonOnOff_5</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>70</x>
-     <y>273</y>
+     <x>86</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>303</x>
@@ -3824,11 +3824,11 @@
    <sender>buttonOnOff_6</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>58</x>
-     <y>311</y>
+     <x>86</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>269</x>
@@ -3840,11 +3840,11 @@
    <sender>buttonOnOff_7</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>78</x>
-     <y>339</y>
+     <x>86</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>526</x>
@@ -3856,11 +3856,11 @@
    <sender>buttonOnOff_8</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>526</x>
-     <y>90</y>
+     <x>543</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>489</x>
@@ -3872,11 +3872,11 @@
    <sender>buttonOnOff_9</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>517</x>
-     <y>132</y>
+     <x>543</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>507</x>
@@ -3888,11 +3888,11 @@
    <sender>buttonOnOff_10</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>521</x>
-     <y>169</y>
+     <x>543</x>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -3904,11 +3904,11 @@
    <sender>buttonOnOff_11</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>526</x>
-     <y>198</y>
+     <x>543</x>
+     <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>547</x>
@@ -3920,11 +3920,11 @@
    <sender>buttonOnOff_12</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>538</x>
-     <y>234</y>
+     <x>543</x>
+     <y>216</y>
     </hint>
     <hint type="destinationlabel">
      <x>571</x>
@@ -3936,11 +3936,11 @@
    <sender>buttonOnOff_13</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>515</x>
-     <y>269</y>
+     <x>543</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
      <x>577</x>
@@ -3952,11 +3952,11 @@
    <sender>buttonOnOff_14</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>523</x>
-     <y>312</y>
+     <x>543</x>
+     <y>290</y>
     </hint>
     <hint type="destinationlabel">
      <x>579</x>
@@ -3968,11 +3968,11 @@
    <sender>buttonOnOff_15</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>DisableTime()</slot>
+   <slot>ActivateTimer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>536</x>
-     <y>342</y>
+     <x>543</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
      <x>571</x>
@@ -3987,5 +3987,6 @@
   <slot>StartChanged()</slot>
   <slot>StopChanged()</slot>
   <slot>DisableTime()</slot>
+  <slot>ActivateTimer()</slot>
  </slots>
 </ui>
